@@ -1,0 +1,245 @@
+{
+  "startNode": "N00000",
+  "nodes": {
+    "N00000": {
+      "dialogue": "You’re the Goth Queen of the East.\n\nYour kingdom of gothly goths depends on you.\n\nWithout your inspiration, their poetry would be flaccid and lifeless. Not in the good way.",
+      "art": [
+        {
+          "artId": "A0001",
+          "filename": "A0001.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0002",
+          "filename": "A0002.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "Sit and brood gothily.",
+          "destinationNode": "N00001"
+        },
+        {
+          "text": "Tell the court you’re working on a poem, then refuse to share when they show interest. It’s much too edgy to share with the poors.",
+          "destinationNode": "N00001"
+        }
+      ]
+    },
+    "N00001": {
+      "dialogue": "Wallz the 15th BURSTS through your court doors.\n\nHe’s FURIOUS and armed with a single dagger, which he’s pointed directly at your taint.\n\nHe blames you for the death of his 14 ancestors, siblings, and cousins.\n\nPrimarily because you ordered the death of his 14 ancestors, siblings, and cousins.\n\nFortunately the throne room is full of your loyal paleguards and poverty people.\n\nSurely he stands no chance.",
+      "art": [
+        {
+          "artId": "A0001",
+          "filename": "A0001.txt",
+          "order": 1,
+          "playback": "Once",
+          "durationMs": 250
+        },
+        {
+          "artId": "A0003",
+          "filename": "A0003.txt",
+          "order": 2,
+          "playback": "Once",
+          "durationMs": 250
+        },
+        {
+          "artId": "A0004",
+          "filename": "A0004.txt",
+          "order": 3,
+          "playback": "Once",
+          "durationMs": 250
+        },
+        {
+          "artId": "A0005",
+          "filename": "A0005.txt",
+          "order": 4,
+          "playback": "Once",
+          "durationMs": 250
+        },
+        {
+          "artId": "A0006",
+          "filename": "A0006.txt",
+          "order": 5,
+          "playback": "Once",
+          "durationMs": 250
+        }
+      ],
+      "choices": [
+        {
+          "text": "Command your paleguards to cry and read their most personal, emotional haiku to the invader. They’ll seize him once he’s suffering from depression and unable to move.",
+          "destinationNode": "N00002"
+        },
+        {
+          "text": "Demand your paleguards recite their most darkly disturbing rhymes to the intruder while crying and streaking their eyeliner. They can strike with their quills while he’s incapacitated.",
+          "destinationNode": "N00003"
+        }
+      ]
+    },
+    "N00002": {
+      "dialogue": "Your paleguards immediately read their haiku to Wallz.\n\n“Wallz drenched in blood, my soul is a haunted house, buttcheeks clench sadly”\n\nUnfortunately, Wallz is somehow unaffected by the wave of depression that normally follows a haiku reading and deftly stabs the guards with his dagger.\n\nThe paleguards immediately apply eyeshadow and mascara so they’ll look hella cool as corpses.\n\nMost of your paleguards die to death from dagger wounds.",
+      "art": [
+        {
+          "artId": "A0007",
+          "filename": "A0007.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0008",
+          "filename": "A0008.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "Order the surviving paleguards to read their haikus in unison. Surely Wallz cannot withstand multiple simultaneous bouts of depression.",
+          "destinationNode": "N00004"
+        },
+        {
+          "text": "Command the paleguards to make their haikus even sadder. Someone mention a dead raven or an absent father.",
+          "destinationNode": "N00004"
+        }
+      ]
+    },
+    "N00003": {
+      "dialogue": "Your paleguards immediately recite a dark passage from the nursery book they’ve been writing together for weeks.\n\n“Shadows gather, crows draw near\nSoon your eyes will fill with fear\nAs I draw a pentagram\nMade from freshly gothened ham”\n\nWallz continues his advance, unmoved and unstayed by their supremely gothic rhymes. Perhaps he was wearing earplugs, perhaps he stabbed them with his dagger.\n\nHe definitely stabbed them with his dagger.\n\nMost of your paleguards die to death from dagger wounds.",
+      "art": [
+        {
+          "artId": "A0007",
+          "filename": "A0007.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0008",
+          "filename": "A0008.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "Demand the remaining paleguards rhyme harder. Their couplets lack the necessary murderous intent.",
+          "destinationNode": "N00005"
+        },
+        {
+          "text": "Order the paleguards to weaponize the nursery book's illustrations. The pentagram ham is particularly unsettling.",
+          "destinationNode": "N00005"
+        }
+      ]
+    },
+    "N00004": {
+      "dialogue": "Somehow Wallz, this absolute Northern abomination of a human, is able to withstand multiple haiku read in unison.\n\nAlthough your remaining paleguards raised their quills in protest, Wallz quickly slew them with his 3-inch dagger.\n\nHis eyes are fixed firmly on you as he sprints towards the throne.",
+      "art": [
+        {
+          "artId": "A0009",
+          "filename": "A0009.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0010",
+          "filename": "A0010.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "Unleash your magnum opus upon Wallz. At least ten suitors died to death from Sudoku during your last reading.",
+          "destinationNode": "N00006"
+        },
+        {
+          "text": "Recite the Forbidden Sonnet. A sonnet so dark and horrific that it’s impossible for a mere dialogue option to elaborate further.",
+          "destinationNode": "N00006"
+        }
+      ]
+    },
+    "N00005": {
+      "dialogue": "It’s like Wallz is blind. He didn’t even take a moment to appreciate the intricate drawings of pentagram’ed ham drawn by your finest goth artisans.\n\nYour remaining paleguards darkly plead with him to slow down and really admire the artistry.\n\nPerhaps quills and poems weren’t exactly the best weapons for dealing with daggered foes.\n\nThe few remaining paleguards were daggered thoroughly by Wallz.\n\nHis eyes are fixed firmly on you as he sprints towards the throne.",
+      "art": [
+        {
+          "artId": "A0009",
+          "filename": "A0009.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0010",
+          "filename": "A0010.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "Unleash your magnum opus upon Wallz. At least ten suitors died to death from Sudoku during your last reading.",
+          "destinationNode": "N00006"
+        },
+        {
+          "text": "Recite the Forbidden Sonnet. A sonnet so dark and horrific that it’s impossible for a mere dialogue option to elaborate further.",
+          "destinationNode": "N00006"
+        }
+      ]
+    },
+    "N00006": {
+      "dialogue": "Wallz reaches the throne.\n\nYou stare into his eyes, your expression unreadable beneath seventeen layers of eyeliner and dozens of crow tattoos.\n\nYour paleguards are dead. Your kingdom is doomed. Your life's work lies scattered across the floor in the form of nursery rhymes and ham illustrations.\n\nYou have one final poem.\n\nYou have been saving it for a special occasion.",
+      "art": [
+        {
+          "artId": "A0013",
+          "filename": "A0013.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0014",
+          "filename": "A0014.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": [
+        {
+          "text": "You open your mouth.",
+          "destinationNode": "N00007"
+        }
+      ]
+    },
+    "N00007": {
+      "dialogue": "Wallz stabs you directly in the taint.",
+      "art": [
+        {
+          "artId": "A0011",
+          "filename": "A0011.txt",
+          "order": 1,
+          "playback": "Looping",
+          "durationMs": 550
+        },
+        {
+          "artId": "A0012",
+          "filename": "A0012.txt",
+          "order": 2,
+          "playback": "Looping",
+          "durationMs": 550
+        }
+      ],
+      "choices": []
+    }
+  }
+}

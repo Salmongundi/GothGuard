@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GothGuard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main id="game">
+        <header>
+            <h1>GothGuard</h1>
+            <label>
+                Palette
+                <select id="paletteSelect" aria-label="Color palette">
+                    <option value="purple">Gothic Purple</option>
+                    <option value="cemetery">Cemetery</option>
+                    <option value="blood">Razor McBlood</option>
+                    <option value="amber">Amber</option>
+                    <option value="lame">Lame</option>
+                </select>
+            </label>
+        </header>
+
+        <section id="scene" aria-label="Current scene">
+            <canvas id="gameCanvas"></canvas>
+        </section>
+
+        <section id="story">
+            <p id="dialogue" aria-live="polite"></p>
+            <div id="choices"></div>
+        </section>
+
+        <p id="status" role="status"></p>
+    </main>
+
+    <script type="module" src="./game/game.js"></script>
+</body>
+</html>
